@@ -7,6 +7,7 @@ def f(n):
             d.add(n // i)
     return d # ДЛЯ ПРОСТОГО ЧИСЛА - RETURN {}
 
+
 c = 0
 for num in range(5_400_001, 6_000_000):
     deliteli = f(num)
